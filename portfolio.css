@@ -347,9 +347,12 @@ section{
     text-decoration: underline;
 }
 
-@media (max-width:991px){
+@media (max-width:1100px){
     html{
         font-size: 55%;
+    }
+    .projects .box-container .box .btn{
+        text-align: center;  
     }
 }
 @media (max-width:768px){
@@ -397,5 +400,13 @@ section{
     }
     .home .flex .image{
         padding-left: 20% ;
+    }
+    .projects .box-container .box h3{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .projects .box-container .box .btn{
+        font-size: 1rem;
+        text-align: center;  
     }
 }
